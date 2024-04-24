@@ -33,7 +33,7 @@ function AddTodo() {
     const todo = useSelector(state =>state.todoarray)
      return(
     <div className='main' >
-      <h1>Todo-List</h1>
+      <h1>Todo-App</h1>
       <input 
         type="text"
         placeholder="Enter a Todo..."
